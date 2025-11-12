@@ -29,16 +29,31 @@
 
 const watch_face_t watch_faces[] = {
     clock_face,
-    world_clock_face,
+    timer_face,
     sunrise_sunset_face,
     moon_phase_face,
+    solstice_face,
+    tide_face,
     stopwatch_face,
-    countdown_face,
-    alarm_face,
-    temperature_display_face,
-    voltage_face,
+    interval_face,
+    databank_face,
+    breathing_face,
+    probability_face,
+    wumpus_face,
+    butterfly_game_face,
+    endless_runner_face,
+    blackjack_face,
+    activity_logging_face,
+    save_load_face, 
+    nanosec_face, 
+    fine_tune_face,
     settings_face,
-    set_time_face
+    set_time_face,
+    preferences_face,
+    voltage_face,
+    temperature_logging_face,
+    temperature_display_face,
+    advanced_alarm_face
 };
 
 #define MOVEMENT_NUM_FACES (sizeof(watch_faces) / sizeof(watch_face_t))
@@ -49,10 +64,10 @@ const watch_face_t watch_faces[] = {
  * Some folks also like to use this to hide the preferences and time set faces from the normal rotation.
  * If you don't want any faces to be excluded, set this to 0 and a long Mode press will have no effect.
  */
-#define MOVEMENT_SECONDARY_FACE_INDEX (MOVEMENT_NUM_FACES - 4)
+#define MOVEMENT_SECONDARY_FACE_INDEX (MOVEMENT_NUM_FACES - 10)
 
 /* Custom hourly chime tune. Check movement_custom_signal_tunes.h for options. */
-#define SIGNAL_TUNE_DEFAULT
+#define SIGNAL_TUNE_ZELDA_SECRET
 
 /* Determines the intensity of the led colors
  * Set a hex value 0-15 with 0x0 being off and 0xF being max intensity

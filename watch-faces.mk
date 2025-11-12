@@ -48,4 +48,13 @@ SRCS += \
   ./watch-faces/sensor/lis2dw_monitor_face.c \
   ./watch-faces/complication/wareki_face.c \
   ./watch-faces/complication/deadline_face.c \
+  ./watch-faces/clock/day_night_percentage_face.c \
+  ./watch-faces/complication/butterfly_game_face.c \
+  ./watch-faces/complication/wumpus_face.c \
+  ./watch-faces/complication/databank_face.c \
+  ./watch-faces/complication/solstice_face.c \
+  ./watch-faces/complication/endless_runner_face.c \
+  ./watch-faces/sensor/voltage_face.c \
+  ./watch-faces/settings/preferences_face.c \
+  ./watch-faces/settings/save_load_face.c \
 # New watch faces go above this line.
