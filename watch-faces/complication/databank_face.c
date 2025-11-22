@@ -29,11 +29,11 @@
 #include "watch_private_display.h"
 
 const char *pi_data[] = {
-    "SO", "0476272164",
-    "LI", "0485947869",
-    "PA", "0474514662",
-    "bA", "BE16 8805 4894 5174",
-    "SA", "BE66 0637 0752 8543",
+    "SOF", "0476272164",
+    "LIE", "0485947869",
+    "PAP", "0474514662",
+    "ban", "BE16 8805 4894 5174",
+    "GEZ", "BE66 0637 0752 8543",
 };
 //we show 6 characters per screen
 
